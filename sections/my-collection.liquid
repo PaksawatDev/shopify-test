@@ -1,0 +1,32 @@
+{{ 'my-section.css' | asset_url | stylesheet_tag }}
+
+{% schema %}
+  {
+    "name": "Section name",
+    "tag": "section",
+    "class": "mySection",
+    "settings": [
+      {
+        "type": "text", 
+        "id": "title", 
+        "label": "Section name"
+      }
+    ],
+    "blocks": [
+      {
+        "name": "Product",
+        "type": "product"
+      }
+    ]
+  }
+{% endschema %}
+
+<div class="section-wrapper">
+  {{ section.settings.title }}
+</div>
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}
