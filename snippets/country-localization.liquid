@@ -14,8 +14,10 @@
     aria-describedby="{{ localPosition }}Label"
   >
     <span>
+      
       {{- localization.country.currency.iso_code }}
       {{ localization.country.currency.symbol }} | {{ localization.country.name -}}
+      {{ localization.country | image_url: width: 14 | image_tag }}
     </span>
     {% render 'icon-caret' %}
   </button>
@@ -36,6 +38,7 @@
               {{ country.currency.symbol }} |</span
             >
             {{ country.name }}
+            {{ country | image_url: width: 14 | image_tag }}
           </a>
         </li>
       {%- endfor -%}
