@@ -6,19 +6,19 @@
         "template--21853721395521__28c4dd0c-b2d5-4f2a-a333-7e048877b523-featured_collection-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "frontpage"
           }
         },
         "template--21853721395521__28c4dd0c-b2d5-4f2a-a333-7e048877b523-featured_collection-2": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "hydrogen"
           }
         },
         "template--21853721395521__28c4dd0c-b2d5-4f2a-a333-7e048877b523-featured_collection-3": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "automated-collection"
           }
         }
       },
