@@ -3,9 +3,14 @@
   flex-direction: row;
   justify-content: space-around;
   padding: 1rem 0;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scroll-snap-points-x: repeat(300px);
+  scroll-snap-type: mandatory;
 }
 .announcement-wrapper {
   padding: 0 1rem;
+  flex-shrink: 0;
 }
 .announcement-text--header {
   text-transform: uppercase;
@@ -22,9 +27,5 @@
 
 @media screen and (max-width: 750px) {
   .my-announcement-bar {
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-    scroll-snap-points-x: repeat(300px);
-    scroll-snap-type: mandatory;
   }
 }
