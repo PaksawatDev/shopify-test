@@ -9,6 +9,7 @@
   scroll-snap-type: x mandatory;
 }
 .announcement-wrapper {
+  width: 100%;
   padding: 0 1rem;
   flex-shrink: 0;
   scroll-snap-align: center;
@@ -20,7 +21,6 @@
 }
 .announcement-text--subtext,
 .announcement-text--header {
-  width: 100%;
   font-size: 1.2rem;
   margin: 0;
   text-align: center;
