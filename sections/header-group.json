@@ -25,20 +25,12 @@
             "text": "Announcement for store",
             "subtext": "This is a subtext"
           }
-        },
-        "announcement_8xNMDx": {
-          "type": "announcement",
-          "settings": {
-            "text": "Announcement for store",
-            "subtext": "This is a subtext"
-          }
         }
       },
       "block_order": [
         "announcement_8G9weB",
         "announcement_LNUWCj",
-        "announcement_JcnCb9",
-        "announcement_8xNMDx"
+        "announcement_JcnCb9"
       ],
       "settings": {
         "color_scheme": ""
