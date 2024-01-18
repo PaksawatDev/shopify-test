@@ -1,0 +1,39 @@
+<div class="announcement-bar">
+    This is my announcement
+</div>
+{% schema %}
+{
+    "name": "t:sections.my-announcement-bar.name",
+    "max_blocks": 4,
+    "class": "my-announcement-bar-section",
+    "settings": [
+        {
+            "type": "header",
+            "content": "t:sections.my-announcement-bar.settings.header__2.content"
+        }
+    ],
+    "blocks": [
+        {
+            "type": "announcement",
+            "name": "t:sections.my-announcement-bar.blocks.announcement.name",
+            "settings": [
+                {
+                    "type": "text",
+                    "id": "text",
+                    "label": "t:sections.my-announcement-bar.blocks.announcement.settings.text.label"
+                }
+            ]
+        }
+    ],
+    "presets": [
+        {
+        "name": "t:sections.announcement-bar.presets.name",
+        "blocks": [
+            {
+            "type": "announcement"
+            }
+        ]
+        }
+    ]
+}
+{% endschema %}
