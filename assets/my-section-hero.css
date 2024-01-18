@@ -57,7 +57,7 @@
   .my-slideshow {
     height: 500px;
   }
-  .my-slideshow .banner--medium.banner--mobile-bottom:not(.banner--adapt) .banner__media {
+  .my-slideshow .slideshow__slide .my-slideshow-media.slideshow__media {
     height: 0;
     position: static;
   }
