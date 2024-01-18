@@ -19,3 +19,9 @@
   text-align: center;
   line-height: 1.5rem;
 }
+
+@media screen and (max-width: 750px) {
+  .my-announcement-bar {
+    flex-direction: column;
+  }
+}
