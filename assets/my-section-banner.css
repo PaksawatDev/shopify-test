@@ -22,4 +22,5 @@
   margin: 0;
   text-align: center;
   line-height: 1.5rem;
+  scroll-snap-align: center;
 }
