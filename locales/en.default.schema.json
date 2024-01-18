@@ -459,7 +459,7 @@
               "label": "Text"
             },
             "subtext": {
-              "label": "Subtext"
+              "label": "text"
             }
           }
         }
