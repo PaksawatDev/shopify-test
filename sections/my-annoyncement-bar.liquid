@@ -1,15 +1,17 @@
 {{ 'my-section-banner.css' |  asset_url |  stylesheet_tag }}
 <div class="announcement-bar">
+    {% for announcement in section.blocks %}
     <div class="announcement-wrapper">
-        {% for announcement in section.blocks %}
+        
         <p class="announcement-text announcement-text--header h5">
             {{ announcement.settings.text |  escape }}
         </p>
         <p class="announcement-text announcement-text--subtext">
             {{ announcement.settings.subtext |  escape }}
         </p>
-        {% endfor %}
+        
     </div>
+    {% endfor %}
 </div>
 {% schema %}
 {
