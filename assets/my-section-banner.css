@@ -25,4 +25,7 @@
     display: grid;
     grid-template-columns: 1fr;
   }
+  .announcement-wrapper {
+    grid-row: 1;
+  }
 }
