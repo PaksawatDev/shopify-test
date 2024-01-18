@@ -58,7 +58,7 @@
     height: 500px;
   }
   .my-slideshow .slideshow__slide .my-slideshow-media.slideshow__media {
-    height: 0;
+    height: 0rem;
     position: static;
   }
   .slideshow__text {
