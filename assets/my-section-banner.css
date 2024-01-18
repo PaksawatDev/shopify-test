@@ -6,6 +6,7 @@
 }
 .announcement-text--header {
   text-transform: uppercase;
+  font-weight: 500;
 }
 .announcement-text--subtext,
 .announcement-text--header {
