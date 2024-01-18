@@ -35,3 +35,7 @@
 .my-slider-counter.slider-counter {
   display: none;
 }
+.slideshow__controls.my-controls .slider-button {
+  background-color: white;
+  border-radius: 50%;
+}
