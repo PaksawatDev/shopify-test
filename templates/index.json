@@ -1,12 +1,11 @@
 {
   "sections": {
-    "my-hero": {
-      "type": "slideshow",
+    "my_hero_MqGUiF": {
+      "type": "my-hero",
       "blocks": {
-        "template--21853721395521__818e9e88-0476-4972-a3dc-ce28d914655f-slide-1": {
+        "slide_iCWbhE": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/theme_cover_image.jpg",
             "heading": "Image slide",
             "heading_size": "h1",
             "subheading": "Tell your brand's story through images",
@@ -21,10 +20,9 @@
             "text_alignment_mobile": "center"
           }
         },
-        "template--21853721395521__818e9e88-0476-4972-a3dc-ce28d914655f-slide-2": {
+        "slide_JVwnQW": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/gift_card.png",
             "heading": "Image slide",
             "heading_size": "h1",
             "subheading": "Tell your brand's story through images",
@@ -41,8 +39,8 @@
         }
       },
       "block_order": [
-        "template--21853721395521__818e9e88-0476-4972-a3dc-ce28d914655f-slide-1",
-        "template--21853721395521__818e9e88-0476-4972-a3dc-ce28d914655f-slide-2"
+        "slide_iCWbhE",
+        "slide_JVwnQW"
       ],
       "settings": {
         "layout": "full_bleed",
@@ -153,7 +151,7 @@
     }
   },
   "order": [
-    "my-hero",
+    "my_hero_MqGUiF",
     "28c4dd0c-b2d5-4f2a-a333-7e048877b523",
     "818e9e88-0476-4972-a3dc-ce28d914655f"
   ]
