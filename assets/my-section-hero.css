@@ -16,6 +16,6 @@
   letter-spacing: 0.3rem;
   font-size: 2rem;
 }
-.slideshow__text .banner-text {
+.slideshow__text .banner-text.rte {
   margin-top: 0;
 }
