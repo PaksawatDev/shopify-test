@@ -4,6 +4,9 @@
   justify-content: space-around;
   padding: 1rem 0;
 }
+.announcement-wrapper {
+  padding: 0 1rem;
+}
 .announcement-text--header {
   text-transform: uppercase;
   font-weight: 600;
