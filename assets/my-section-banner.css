@@ -10,6 +10,8 @@
 }
 .announcement-wrapper {
   padding: 0 1rem;
+  flex-shrink: 0;
+  scroll-snap-align: center;
 }
 .announcement-text--header {
   text-transform: uppercase;
@@ -23,5 +25,4 @@
   margin: 0;
   text-align: center;
   line-height: 1.5rem;
-  scroll-snap-align: center;
 }
