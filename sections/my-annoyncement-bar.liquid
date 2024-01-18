@@ -1,5 +1,12 @@
 <div class="announcement-bar">
-    This is my announcement
+    <div class="announcemtn-wrapper">
+        <p class="announcement-text announcement-text--header h5">
+            {{ block.settings.text |  escape }}
+        </p>
+        <p class="announcement-text announcement-text--subtext">
+            {{ block.settings.subtext |  escape }}
+        </p>
+    </div>
 </div>
 {% schema %}
 {
