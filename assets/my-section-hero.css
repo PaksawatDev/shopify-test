@@ -1,3 +1,6 @@
 .my-slideshow {
   height: 750px;
 }
+.banner__box {
+  background-color: transparent;
+}
