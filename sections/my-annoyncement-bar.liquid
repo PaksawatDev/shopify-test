@@ -2,11 +2,9 @@
     <div class="announcemtn-wrapper">
         <p class="announcement-text announcement-text--header h5">
             {{ block.settings.text |  escape }}
-            Header
         </p>
         <p class="announcement-text announcement-text--subtext">
             {{ block.settings.subtext |  escape }}
-            subtext
         </p>
     </div>
 </div>
@@ -29,11 +27,13 @@
                 {
                     "type": "text",
                     "id": "text",
+                    "default": "Announcement for store",
                     "label": "t:sections.my-announcement-bar.blocks.announcement.settings.text.label"
                 },
                 {
                     "type": "text",
                     "id": "subtext",
+                    "default": "This is a subtext",
                     "label": "t:sections.my-announcement-bar.blocks.announcement.settings.subtext.label"
                 }
             ]
