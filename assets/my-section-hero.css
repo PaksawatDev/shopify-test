@@ -38,4 +38,7 @@
 .slideshow__controls.my-controls .slider-button {
   background-color: white;
   border-radius: 50%;
+  color: black;
+  width: 35px;
+  height: 35px;
 }
