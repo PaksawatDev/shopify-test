@@ -10,4 +10,6 @@
 .announcement-text--header {
   font-size: 1rem;
   margin: 0;
+  text-align: center;
+  line-height: 1rem;
 }
