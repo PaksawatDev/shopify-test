@@ -22,6 +22,9 @@
 
 @media screen and (max-width: 750px) {
   .my-announcement-bar {
-    flex-direction: column;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scroll-snap-points-x: repeat(300px);
+    scroll-snap-type: mandatory;
   }
 }
