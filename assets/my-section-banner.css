@@ -23,12 +23,23 @@
 @media screen and (max-width: 750px) {
   .my-announcement-bar {
     display: grid;
-    grid-gap: 20px;
-    grid-auto-flow: column;
-    grid-auto-columns: calc((100% - 2 * 20px) / 4);
+    grid: auto / auto-flow max-content;
+    grid-gap: 1em;
+    align-items: center;
+
+    /* this is the magic part*/
+    position: relative;
+    overflow: hidden;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
   }
   .announcement-wrapper {
-    grid-row: 1;
-    width: 100%;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+
+    /* this is the magic part*/
+    scroll-snap-align: center;
   }
 }
