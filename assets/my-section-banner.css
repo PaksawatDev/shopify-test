@@ -25,6 +25,7 @@
     grid: auto / auto-flow max-content;
     grid-gap: 1em;
     align-items: center;
+    overflow: hidden;
   }
   .announcement-wrapper {
     scroll-snap-align: center;
