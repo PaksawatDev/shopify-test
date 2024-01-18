@@ -7,7 +7,7 @@
 .announcement-text--header {
   text-transform: uppercase;
   font-weight: 600;
-  letter-spacing: 0.1rem;
+  letter-spacing: 0.15rem;
 }
 .announcement-text--subtext,
 .announcement-text--header {
