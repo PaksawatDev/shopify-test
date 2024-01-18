@@ -22,6 +22,7 @@
 @media screen and (max-width: 750px) {
   .my-announcement-bar {
     display: grid;
+    grid-template-columns: 1fr;
     grid: auto / auto-flow max-content;
     grid-gap: 1em;
     align-items: center;
