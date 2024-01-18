@@ -25,6 +25,9 @@
   line-height: 1.5rem;
 }
 @media screen and (max-width: 750px) {
+  .my-announcement-bar {
+    justify-content: unset;
+  }
   .announcement-wrapper {
     flex-shrink: 0;
     scroll-snap-align: center;
