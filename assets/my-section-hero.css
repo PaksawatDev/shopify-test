@@ -1,5 +1,6 @@
 .my-slide-mobile-gutter {
   margin-top: -84px;
+  position: relative;
 }
 .my-slideshow {
   height: 750px;
