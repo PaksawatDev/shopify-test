@@ -1,11 +1,13 @@
 <div class="announcement-bar">
-    <div class="announcemtn-wrapper">
+    <div class="announcement-wrapper">
+        {% for announcement in section.blocks %}
         <p class="announcement-text announcement-text--header h5">
-            {{ block.settings.text |  escape }}
+            {{ announcement.settings.text |  escape }}
         </p>
         <p class="announcement-text announcement-text--subtext">
-            {{ block.settings.subtext |  escape }}
+            {{ announcement.settings.subtext |  escape }}
         </p>
+        {% endfor %}
     </div>
 </div>
 {% schema %}
