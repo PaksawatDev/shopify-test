@@ -4,7 +4,7 @@
   justify-content: space-around;
 }
 .announcement-text--header {
-  font-style: bold;
+  font-weight: bold;
   font-size: 1rem;
 }
 .announcement-text--subtext {
