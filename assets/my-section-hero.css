@@ -9,11 +9,13 @@
   font-size: 4rem;
   font-weight: 800;
   line-height: 5rem;
-  margin-top: 0;
 }
 .banner__heading {
   color: white;
   text-transform: uppercase;
   letter-spacing: 0.3rem;
   font-size: 2rem;
+}
+.banner-text {
+  margin-top: 0;
 }
