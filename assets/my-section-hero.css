@@ -42,4 +42,7 @@
   color: black;
   width: 35px;
   height: 35px;
+  -webkit-box-shadow: 0px 7px 11px 0px rgba(181, 181, 181, 1);
+  -moz-box-shadow: 0px 7px 11px 0px rgba(181, 181, 181, 1);
+  box-shadow: 0px 7px 11px 0px rgba(181, 181, 181, 1);
 }
