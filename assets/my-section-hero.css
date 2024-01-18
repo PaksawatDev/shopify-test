@@ -31,6 +31,7 @@
   right: 0;
   bottom: -18px;
   cursor: pointer;
+  border: none;
 }
 .my-slider-counter.slider-counter {
   display: none;
