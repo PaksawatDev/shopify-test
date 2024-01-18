@@ -5,6 +5,7 @@
 }
 .announcement-text--header {
   font-weight: bold;
+  text-transform: uppercase;
 }
 .announcement-text--subtext,
 .announcement-text--header {
