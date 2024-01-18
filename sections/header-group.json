@@ -2,7 +2,7 @@
   "name": "t:sections.header.name",
   "type": "header",
   "sections": {
-    "announcement-bar": {
+    "my-announcement-bar": {
       "type": "my-announcement-bar",
       "blocks": {
         "announcement-bar-0": {
