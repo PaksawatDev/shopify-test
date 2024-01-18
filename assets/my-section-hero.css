@@ -32,6 +32,7 @@
   bottom: -18px;
   cursor: pointer;
   border: none;
+  transition: ease 0.1s;
 }
 .my-slider-counter.slider-counter {
   display: none;
