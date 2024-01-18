@@ -3,6 +3,10 @@
   flex-direction: row;
   justify-content: space-around;
   padding: 1rem 0;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scroll-snap-points-x: repeat(300px);
+  scroll-snap-type: x mandatory;
 }
 .announcement-wrapper {
   padding: 0 1rem;
