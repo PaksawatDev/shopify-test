@@ -26,5 +26,5 @@
   margin-top: 0rem;
 }
 .my-controls {
-  display: absolute;
+  position: absolute;
 }
