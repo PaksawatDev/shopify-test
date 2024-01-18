@@ -11,8 +11,6 @@
 .announcement-wrapper {
   width: 100%;
   padding: 0 1rem;
-  flex-shrink: 0;
-  scroll-snap-align: center;
 }
 .announcement-text--header {
   text-transform: uppercase;
@@ -25,4 +23,10 @@
   margin: 0;
   text-align: center;
   line-height: 1.5rem;
+}
+@media screen and (max-width: 750px) {
+  .announcement-wrapper {
+    flex-shrink: 0;
+    scroll-snap-align: center;
+  }
 }
