@@ -8,13 +8,21 @@
         "announcement_gnytBD": {
           "type": "announcement",
           "settings": {
-            "text": "Myy announcement",
-            "subtext": "dijwdiwdwdw"
+            "text": "This is my first announcement",
+            "subtext": "Some subtext"
+          }
+        },
+        "announcement_i3YhTD": {
+          "type": "announcement",
+          "settings": {
+            "text": "Announcement for store",
+            "subtext": "This is a subtext"
           }
         }
       },
       "block_order": [
-        "announcement_gnytBD"
+        "announcement_gnytBD",
+        "announcement_i3YhTD"
       ],
       "settings": {
       }
