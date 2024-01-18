@@ -23,14 +23,14 @@
           "type": "announcement",
           "settings": {
             "text": "Free shipping",
-            "subtext": "buy now!"
+            "subtext": "On all orders over $100"
           }
         },
         "announcement_49gRTD": {
           "type": "announcement",
           "settings": {
-            "text": "Return any time",
-            "subtext": "full gurantee"
+            "text": "hassle-free returns",
+            "subtext": "30-days postage paid returns"
           }
         }
       },
