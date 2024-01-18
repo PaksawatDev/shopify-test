@@ -11,6 +11,7 @@
 .announcement-wrapper {
   padding: 0 1rem;
   flex-shrink: 0;
+  scroll-snap-align: start;
 }
 .announcement-text--header {
   text-transform: uppercase;
