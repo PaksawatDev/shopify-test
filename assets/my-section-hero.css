@@ -28,4 +28,6 @@
 }
 .slideshow__controls.my-controls {
   position: absolute;
+  right: 0;
+  bottom: 0;
 }
