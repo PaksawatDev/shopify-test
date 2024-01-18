@@ -5,11 +5,9 @@
 }
 .announcement-text--header {
   font-weight: bold;
-  font-size: 1rem;
-  margin: 0;
 }
-.announcement-text--subtext {
-  font-style: normal;
+.announcement-text--subtext,
+.announcement-text--header {
   font-size: 1rem;
   margin: 0;
 }
