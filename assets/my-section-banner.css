@@ -26,6 +26,7 @@
     grid-gap: 1em;
     align-items: center;
     overflow-x: auto;
+    scroll-snap-type: mandatory;
   }
   .announcement-wrapper {
     scroll-snap-align: center;
