@@ -19,3 +19,6 @@
 .slideshow__text .banner-text.rte {
   margin-top: 0;
 }
+.banner__box .banner__heading + * {
+  margin-top: 0rem;
+}
