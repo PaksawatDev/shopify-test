@@ -457,6 +457,9 @@
           "settings": {
             "text": {
               "label": "Text"
+            },
+            "subtext": {
+              "label": "Subtext"
             }
           }
         }
