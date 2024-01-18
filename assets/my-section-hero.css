@@ -5,7 +5,9 @@
   background-color: transparent;
   color: white;
 }
-.slideshow__text,
-.slideshow__text .banner__heading {
+.slideshow__text {
+  color: white;
+}
+.banner__heading {
   color: white;
 }
