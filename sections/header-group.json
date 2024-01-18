@@ -8,22 +8,22 @@
         "announcement_8G9weB": {
           "type": "announcement",
           "settings": {
-            "text": "Announcement for store",
-            "subtext": "This is a subtext"
+            "text": "Free shipping",
+            "subtext": "On all orders over $100"
           }
         },
         "announcement_LNUWCj": {
           "type": "announcement",
           "settings": {
-            "text": "Announcement for store",
-            "subtext": "This is a subtext"
+            "text": "hassle-free returns",
+            "subtext": "30-days postage paid returns"
           }
         },
         "announcement_JcnCb9": {
           "type": "announcement",
           "settings": {
-            "text": "Announcement for store",
-            "subtext": "This is a subtext"
+            "text": "For 24% off",
+            "subtext": "Use promo code: NEW24"
           }
         }
       },
