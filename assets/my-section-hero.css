@@ -57,7 +57,7 @@
   .my-slideshow {
     height: 500px;
   }
-  .my-slideshow-media.slideshow__media {
+  .slideshow__slide .my-slideshow-media.slideshow__media {
     height: 100%;
     position: static;
   }
