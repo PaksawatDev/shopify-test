@@ -26,6 +26,6 @@
 .banner__box .slideshow__text .banner__heading + * {
   margin-top: 0rem;
 }
-.my-controls {
+.slideshow__controls.my-controls {
   position: absolute;
 }
