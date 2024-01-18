@@ -35,7 +35,6 @@
         "template--21853721395521__4e12296e-e96a-43bc-9537-03a3f75934b6-buttons-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/woman-in-the-city_925x_ee7ee246-c330-4bf7-bde5-8e1f0a5063fa.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
@@ -111,6 +110,24 @@
           }
         },
         "template--21853721395521__818e9e88-0476-4972-a3dc-ce28d914655f-slide-2": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gift_card.png",
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "my-hero": {
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/gift_card.png",
