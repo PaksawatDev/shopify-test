@@ -3,3 +3,8 @@
   flex-direction: row;
   justify-content: space-around;
 }
+.announcement-text--header {
+  font-style: bold;
+}
+.announcement-text--subtext {
+}
