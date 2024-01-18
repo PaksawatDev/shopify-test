@@ -46,3 +46,6 @@
   -moz-box-shadow: 0px 5px 5px -5px rgba(181, 181, 181, 0.5);
   box-shadow: 0px 5px 5px -5px rgba(181, 181, 181, 0.5);
 }
+.slideshow__controls.my-controls .slider-button:hover {
+  transform: scale(1.1);
+}
