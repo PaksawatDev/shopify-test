@@ -126,8 +126,45 @@
             "color_scheme": "",
             "text_alignment_mobile": "center"
           }
+        }
+      },
+      "block_order": [
+        "template--21853721395521__818e9e88-0476-4972-a3dc-ce28d914655f-slide-1",
+        "template--21853721395521__818e9e88-0476-4972-a3dc-ce28d914655f-slide-2"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "my-hero": {
+      "type": "slideshow",
+      "blocks": {
+        "template--21853721395521__818e9e88-0476-4972-a3dc-ce28d914655f-slide-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/theme_cover_image.jpg",
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
         },
-        "my-hero": {
+        "template--21853721395521__818e9e88-0476-4972-a3dc-ce28d914655f-slide-2": {
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/gift_card.png",
@@ -163,6 +200,7 @@
     }
   },
   "order": [
+    "my-hero",
     "4e12296e-e96a-43bc-9537-03a3f75934b6",
     "28c4dd0c-b2d5-4f2a-a333-7e048877b523",
     "818e9e88-0476-4972-a3dc-ce28d914655f"
