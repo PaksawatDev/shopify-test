@@ -31,3 +31,6 @@
   right: 0;
   bottom: 0;
 }
+.my-slider-counter.slider-counter {
+  display: none;
+}
