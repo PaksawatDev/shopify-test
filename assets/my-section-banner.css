@@ -34,5 +34,6 @@
   }
   .announcement-wrapper {
     grid-row: 1;
+    width: 100%;
   }
 }
