@@ -29,6 +29,7 @@
     scroll-snap-type: mandatory;
   }
   .announcement-wrapper {
+    width: 100%;
     scroll-snap-align: center;
   }
 }
