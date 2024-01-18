@@ -3,11 +3,13 @@
 }
 .banner__box {
   background-color: transparent;
-  color: white;
 }
 .slideshow__text {
   color: white;
 }
 .banner__heading {
   color: white;
+  text-transform: uppercase;
+  letter-spacing: 1.3rem;
+  font-size: 2rem;
 }
