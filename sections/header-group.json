@@ -18,11 +18,27 @@
             "text": "Announcement for store",
             "subtext": "This is a subtext"
           }
+        },
+        "announcement_y4d4V4": {
+          "type": "announcement",
+          "settings": {
+            "text": "Free shipping",
+            "subtext": "buy now!"
+          }
+        },
+        "announcement_49gRTD": {
+          "type": "announcement",
+          "settings": {
+            "text": "Return any time",
+            "subtext": "full gurantee"
+          }
         }
       },
       "block_order": [
         "announcement_gnytBD",
-        "announcement_i3YhTD"
+        "announcement_i3YhTD",
+        "announcement_y4d4V4",
+        "announcement_49gRTD"
       ],
       "settings": {
         "color_scheme": ""
