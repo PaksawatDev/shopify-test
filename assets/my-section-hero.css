@@ -16,9 +16,9 @@
   letter-spacing: 0.3rem;
   font-size: 2rem;
 }
-.slideshow__text .banner-text.rte {
+.banner__box .slideshow__text .banner-text.rte {
   margin-top: 0;
 }
-.banner__box .banner__heading + * {
+.banner__box .slideshow__text .banner__heading + * {
   margin-top: 0rem;
 }
