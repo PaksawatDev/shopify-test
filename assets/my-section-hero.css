@@ -28,7 +28,7 @@
 }
 .slideshow__controls.my-controls {
   position: absolute;
-  right: 0;
+  right: 5rem;
   bottom: -18px;
   cursor: pointer;
   border: none;
