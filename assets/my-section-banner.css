@@ -23,14 +23,9 @@
 @media screen and (max-width: 750px) {
   .my-announcement-bar {
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1;
-    overflow-x: auto;
-
-    /* make it smooth on iOS */
-    -webkit-overflow-scrolling: touch;
-    scroll-snap-points-x: repeat(300px);
-    scroll-snap-type: mandatory;
+    grid-gap: 20px;
+    grid-auto-flow: column;
+    grid-auto-columns: calc((100% - 2 * 20px) / 3);
   }
   .announcement-wrapper {
     grid-row: 1;
