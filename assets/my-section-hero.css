@@ -58,7 +58,7 @@
     height: 500px;
   }
   .slideshow__slide .my-slideshow-media.slideshow__media {
-    height: 100%;
+    height: 18rem;
     position: static;
   }
   .slideshow__text {
