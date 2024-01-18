@@ -24,6 +24,7 @@
   .my-announcement-bar {
     display: grid;
     grid-template-columns: 1fr;
+    grid-template-rows: 1;
   }
   .announcement-wrapper {
     grid-row: 1;
