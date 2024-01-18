@@ -26,4 +26,7 @@
     grid-gap: 1em;
     align-items: center;
   }
+  .announcement-wrapper {
+    scroll-snap-align: center;
+  }
 }
