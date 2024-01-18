@@ -2,43 +2,43 @@
   "name": "t:sections.header.name",
   "type": "header",
   "sections": {
-    "my_annoyncement_bar_WAFmPK": {
-      "type": "my-annoyncement-bar",
+    "my_annoncement_bar_my37w4": {
+      "type": "my-annoncement-bar",
       "blocks": {
-        "announcement_gnytBD": {
-          "type": "announcement",
-          "settings": {
-            "text": "This is my first announcement",
-            "subtext": "Some subtext"
-          }
-        },
-        "announcement_i3YhTD": {
+        "announcement_8G9weB": {
           "type": "announcement",
           "settings": {
             "text": "Announcement for store",
             "subtext": "This is a subtext"
           }
         },
-        "announcement_y4d4V4": {
+        "announcement_LNUWCj": {
           "type": "announcement",
           "settings": {
-            "text": "Free shipping",
-            "subtext": "On all orders over $100"
+            "text": "Announcement for store",
+            "subtext": "This is a subtext"
           }
         },
-        "announcement_49gRTD": {
+        "announcement_JcnCb9": {
           "type": "announcement",
           "settings": {
-            "text": "hassle-free returns",
-            "subtext": "30-days postage paid returns"
+            "text": "Announcement for store",
+            "subtext": "This is a subtext"
+          }
+        },
+        "announcement_8xNMDx": {
+          "type": "announcement",
+          "settings": {
+            "text": "Announcement for store",
+            "subtext": "This is a subtext"
           }
         }
       },
       "block_order": [
-        "announcement_gnytBD",
-        "announcement_i3YhTD",
-        "announcement_y4d4V4",
-        "announcement_49gRTD"
+        "announcement_8G9weB",
+        "announcement_LNUWCj",
+        "announcement_JcnCb9",
+        "announcement_8xNMDx"
       ],
       "settings": {
         "color_scheme": ""
@@ -64,7 +64,7 @@
     }
   },
   "order": [
-    "my_annoyncement_bar_WAFmPK",
+    "my_annoncement_bar_my37w4",
     "header"
   ]
 }
