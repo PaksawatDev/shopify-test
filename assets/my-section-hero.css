@@ -33,7 +33,7 @@
   cursor: pointer;
   border: none;
   transition: ease;
-  gap: 2rem;
+  gap: 1rem;
 }
 .my-slider-counter.slider-counter {
   display: none;
