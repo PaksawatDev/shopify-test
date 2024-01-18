@@ -29,7 +29,7 @@
 .slideshow__controls.my-controls {
   position: absolute;
   right: 4rem;
-  bottom: -18px;
+  bottom: -16px;
   cursor: pointer;
   border: none;
   transition: ease-in-out;
