@@ -28,6 +28,9 @@
   .my-announcement-bar {
     justify-content: unset;
   }
+  .my-announcement-bar::-webkit-scrollbar {
+    display: none;
+  }
   .announcement-wrapper {
     flex-shrink: 0;
     scroll-snap-align: center;
